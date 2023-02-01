@@ -6,12 +6,15 @@
        private $type;
        private $expirationDate;
 
+
        function setDose(){
         $this->dose = $dose;
        }
+
        function setType(){
-        $this->type = $type
+        $this->type = $type;
        }
+
        function setExpirationDate(){
         $this->expirationDate = $expirationDate
        }
